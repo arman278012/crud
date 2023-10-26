@@ -37,3 +37,15 @@
     transform: rotate(360deg);
   }
 }
+.brd{
+  border: 2px solid black;
+}
+
+@media (max-width:767px){
+  .header{
+    width: 80%;
+  }
+  .header-para{
+    font-size: 17px;
+  }
+}

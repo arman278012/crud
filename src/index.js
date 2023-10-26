@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './Redux/store';
 import AuthoContext from './components/AuthoContext';
+import {Toaster} from 'react-hot-toast';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
   <AuthoContext>
     <Provider store={store}>
       <App />
+     <Toaster/>
     </Provider>
   </AuthoContext>
 

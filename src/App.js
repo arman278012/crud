@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card';
 import Cards from './components/Cards';
-import Modals from './components/Modals';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
 
-      {/* <Card></Card> */}
-
+      
+      <Header></Header>
       <Cards></Cards>
       {/* <Modals></Modals> */}
     </div>
